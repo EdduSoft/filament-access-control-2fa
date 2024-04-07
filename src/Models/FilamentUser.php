@@ -17,6 +17,7 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\DatabaseNotification;
 use Illuminate\Notifications\DatabaseNotificationCollection;
 use Illuminate\Notifications\Notifiable;
+use Jeffgreco13\FilamentBreezy\Traits\TwoFactorAuthenticatable;
 use Spatie\Permission\Models\Permission;
 use Spatie\Permission\Models\Role;
 use Spatie\Permission\Traits\HasRoles;
@@ -56,6 +57,7 @@ class FilamentUser extends Authenticatable implements AccessControlUser, Filamen
     use HasFactory;
     use HasRoles;
     use Notifiable;
+    use TwoFactorAuthenticatable;
 
     /** {@inheritDoc} */
     protected $table = 'filament_users';
