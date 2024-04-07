@@ -8,7 +8,10 @@
 
 Opinionated setup for managing admin users, roles and permissions within [Laravel Filament](https://github.com/laravel-filament/filament)
 
+This package is a for from https://github.com/chiiya/filament-access-control repository
+
 ## Features
+- Add https://github.com/jeffgreco13/filament-breezy package
 - Separate database table for filament admin users (separate model, separate guard, separate password broker)
 - Uses [spatie/laravel-permission](https://github.com/spatie/laravel-permission) for roles and permissions
 - Fully localized
@@ -24,7 +27,7 @@ Opinionated setup for managing admin users, roles and permissions within [Larave
 1. Install the package via composer:
 
 ```bash
-composer require chiiya/filament-access-control
+composer require eddusoft/filament-access-control
 ```
 
 2. Update your Filament Panel ServiceProvider and register the plugin:
