@@ -1,5 +1,5 @@
 {
-    "name": "chiiya/filament-access-control",
+    "name": "eddusoft/filament-access-control-2fa",
     "description": "Admin user, role and permission management for Laravel Filament",
     "keywords": [
         "chiiya",
@@ -9,7 +9,7 @@
         "roles",
         "permissions"
     ],
-    "homepage": "https://github.com/chiiya/filament-access-control",
+    "homepage": "https://github.com/EdduSoft/filament-access-control-2fa",
     "license": "MIT",
     "authors": [
         {
